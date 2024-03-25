@@ -786,7 +786,8 @@ a {
   transition: .3s all !important;
 }
 .cid-tJGsCG1vVL .navbar-nav .nav-item .nav-link:hover {
-  background-color: rgba(27, 31, 10, 0.06);
+  /*background-color: rgba(27, 31, 10, 0.06);*/
+  background-color: #d70081;
 }
 .cid-tJGsCG1vVL .navbar-nav .open .nav-link::after {
   transform: rotate(180deg);
@@ -841,6 +842,7 @@ a {
   margin-left: 0.5rem;
   margin-top: 0.2rem;
   transition: .3s all;
+  display: none;	/* stubborn haha */
 }
 .cid-tJGsCG1vVL .container {
   display: flex;
